@@ -65,7 +65,7 @@ def main():
             for bullet in shots:
                 if collider.collide(bullet):
 
-                    collider.kill()
+                    collider.split()
                     bullet.kill()
 
 
